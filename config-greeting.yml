@@ -7,7 +7,7 @@ management:
   security:
     enabled: false # turn off securing the actuator endpoints
     
-# <----New sections below
+# <----This section is where we change debug mode
 logging: 
   level:
     io:
