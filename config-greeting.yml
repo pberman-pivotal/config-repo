@@ -1,0 +1,15 @@
+#config greeting
+security:
+  basic:
+    enabled: false # turn off securing our application endpoints
+
+management:
+  security:
+    enabled: false # turn off securing the actuator endpoints
+    
+# <----New sections below
+logging: 
+  level:
+    io:
+      pivotal: INFO
+      
